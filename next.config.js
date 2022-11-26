@@ -2,4 +2,5 @@
 module.exports = {
   reactStrictMode: true,
   forceSwcTransforms: true,
+  distDir: 'build',
 }
