@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  experimental: {
+    forceSwcTransforms: true,
+  },
   reactStrictMode: true,
-  forceSwcTransforms: true,
   distDir: 'build',
 }
