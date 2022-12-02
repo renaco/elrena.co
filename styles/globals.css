@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.custom-shape-divider-top-1669966286 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1669966286 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 358px;
+}
+
+.custom-shape-divider-top-1669966286 .shape-fill {
+  fill: #FFFFFF;
+}

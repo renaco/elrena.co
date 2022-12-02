@@ -10,14 +10,25 @@ const VideoContent = styled.div`
   }
 `
 
+const Divider = () => {
+  return (
+    <div className="custom-shape-divider-top-1669966286">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
+      </svg>
+    </div>
+  )
+}
+
 const HomePage: NextPage = () => {
   return (
     <VideoContent>
-      <iframe src='https://www.youtube.com/embed/G9s87L0ZLgY?autoplay=1&mute=1&controls=0&loop=1&player=""'
+      <iframe src='https://www.youtube.com/embed/G9s87L0ZLgY?autoplay=1&amp;mute=1&amp;controls=0&amp;loop=1&amp;playlist=G9s87L0ZLgY&amp;enablejsapi=1&amp;showinfo=0'
         allow='autoplay; encrypted-media'
         allowFullScreen
         title='video'
       />
+      <Divider />
     </VideoContent>
   )
 }
