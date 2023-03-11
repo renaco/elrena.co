@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
+import Card from '../components/card'
 
 const VideoContent = styled.div`
   width: 100%;
@@ -29,6 +30,7 @@ const HomePage: NextPage = () => {
         title='video'
       />
       <Divider />
+      <Card />
     </VideoContent>
   )
 }
