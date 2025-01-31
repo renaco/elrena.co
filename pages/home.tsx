@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import styled from "styled-components";
 import Card from "../components/card";
+import { useEffect } from "react";
+import { Divider } from "../components/divider";
 
 const VideoContent = styled.div`
   width: 100%;
@@ -13,24 +15,40 @@ const VideoContent = styled.div`
   }
 `;
 
-const Divider = () => {
-  return (
-    <div className="custom-shape-divider-top-1669966286">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1200 120"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-          className="shape-fill"
-        ></path>
-      </svg>
-    </div>
-  );
-};
-
 const HomePage: NextPage = () => {
+  const videoId = "G9s87L0ZLgY";
+
+  const loadFonts = () => {
+    const link = document.createElement("link");
+    link.href =
+      "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+    link.rel = "stylesheet";
+    document.head.appendChild(link);
+    return () => {
+      document.head.removeChild(link);
+    };
+  };
+
+  const loadStyles = () => {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+    return () => {
+      document.head.removeChild(style);
+    };
+  };
+
+  useEffect(() => {
+    loadFonts();
+    loadStyles();
+  }, []);
+
   return (
     <VideoContent>
       <iframe

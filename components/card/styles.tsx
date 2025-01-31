@@ -1,5 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const CardStyle = styled.aside`
-  display: flex;
-`
+  background-color: #ff2224;
+  display: grid;
+  font-family: "Roboto", sans-serif;
+`;
