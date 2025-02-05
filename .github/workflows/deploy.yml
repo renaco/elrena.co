@@ -26,7 +26,7 @@ jobs:
 
       # Build and export the static site
       - name: Build and export site
-        run: npm run build:export # make sure this command outputs to a folder, e.g. "out"
+        run: npm run build
 
       # Deploy to GitHub Pages using the "gh-pages" branch
       - name: Deploy to GitHub Pages

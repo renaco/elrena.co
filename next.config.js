@@ -6,4 +6,5 @@ module.exports = {
   trailingSlash: true,
   reactStrictMode: true,
   distDir: "build",
+  output: "export",
 };
