@@ -3,7 +3,7 @@ module.exports = {
   experimental: {
     forceSwcTransforms: true,
   },
-  exportTrailingSlash: true,
+  trailingSlash: true,
   reactStrictMode: true,
   distDir: "build",
 };
