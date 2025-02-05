@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "build:export": "next build && next export",
+    "export": "next export",
     "start": "next start",
     "test": "jest --watch",
     "test:config": "jest --config",

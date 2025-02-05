@@ -1,0 +1,36 @@
+name: Deploy Next.js Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # or your primary branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16" # specify the Node version you use
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build and export the static site
+      - name: Build and export site
+        run: npm run build:export # make sure this command outputs to a folder, e.g. "out"
+
+      # Deploy to GitHub Pages using the "gh-pages" branch
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./out # change if your export folder is named differently
