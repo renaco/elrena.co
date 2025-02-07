@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Card from "../components/card";
 import { useEffect } from "react";
 import { Divider } from "../components/divider";
+import ExperienceList from "../components/portfolio";
+import Header from "../components/portfolio/Header";
 
 const VideoContent = styled.div`
   width: 100%;
@@ -51,16 +53,20 @@ const HomePage: NextPage = () => {
   }, []);
 
   return (
-    <VideoContent>
-      <iframe
-        src="https://www.youtube.com/embed/G9s87L0ZLgY?autoplay=1&amp;mute=1&amp;controls=0&amp;loop=1&amp;playlist=G9s87L0ZLgY&amp;enablejsapi=1&amp;showinfo=0"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-        title="video"
-      />
-      <Divider />
-      <Card />
-    </VideoContent>
+    <>
+      <VideoContent>
+        <iframe
+          src="https://www.youtube.com/embed/G9s87L0ZLgY?autoplay=1&amp;mute=1&amp;controls=0&amp;loop=1&amp;playlist=G9s87L0ZLgY&amp;enablejsapi=1&amp;showinfo=0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title="video"
+        />
+        <Divider />
+        <Card />
+      </VideoContent>
+      <Header />
+      <ExperienceList />
+    </>
   );
 };
 
