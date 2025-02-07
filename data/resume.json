@@ -1,0 +1,115 @@
+{
+  "contact_information": {
+    "full_name": "RENÁN ROMERO RUIZ",
+    "phone_number": "+51 981 035 276",
+    "email": "renanromero@gmail.com",
+    "linkedin_profile": "https://pe.linkedin.com/in/renaco",
+    "location": "Lima, Perú"
+  },
+  "summary": "Front-End Developer Architect, self taught and research of new technologies, best practices, task automation and process. Cross-browser and cross-device, enthusiast quality assurance automation, DevOps and agile acknowledgments.",
+  "skills": {
+    "technical": [
+      "TypeScript",
+      "React",
+      "Angular",
+      "Scrum",
+      "Git",
+      "Best Practices"
+    ],
+    "soft": [
+      "Problem-solving",
+      "Critical thinking",
+      "Collaboration",
+      "Communication"
+    ]
+  },
+  "education": {
+    "degree": "Electronic Technical degree.",
+    "institution": "CESCA",
+    "location": "Lima, Peru",
+    "graduation_year": "2005",
+    "relevant_coursework": [
+      "How to Learn Online by EDX ",
+      "React - The Complete Guide (incl Hooks, React Router, Redux) by Udemy",
+      "Data Structures and Algorithms"
+    ]
+  },
+  "experience": [
+    {
+      "job_title": "Front-End Developer",
+      "company": "Auna",
+      "location": "Lima, Perú",
+      "dates": "2023 - Present",
+      "responsibilities": [
+        "Developed machine learning models for predictive analytics.",
+        "Implemented deep learning algorithms for image recognition.",
+        "Collaborated with cross-functional teams to deploy AI solutions."
+      ]
+    },
+    {
+      "job_title": "Frontend Developer Senior",
+      "company": "RPA Latam",
+      "location": "City, State",
+      "dates": "Summer 2017",
+      "responsibilities": [
+        "Conducted exploratory data analysis on large datasets.",
+        "Built predictive models using regression and classification techniques.",
+        "Presented findings to senior management."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sentiment Analysis with LSTM",
+      "description": "Developed a sentiment analysis model using Long Short-Term Memory (LSTM) neural networks.",
+      "technologies_used": [
+        "Python",
+        "TensorFlow",
+        "Keras"
+      ],
+      "role": "Lead Developer",
+      "achievements": "Achieved 85% accuracy on sentiment classification task."
+    },
+    {
+      "name": "Image Classification with CNNs",
+      "description": "Built a convolution neural network (CNN) for image classification tasks.",
+      "technologies_used": [
+        "Python",
+        "TensorFlow",
+        "OpenCV"
+      ],
+      "role": "Team Member",
+      "achievements": "Won 2nd place in a Kaggle competition."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "TensorFlow Developer Certificate",
+      "organization": "TensorFlow",
+      "completion_date": "2021"
+    }
+  ],
+  "publications_presentations": [
+    {
+      "title": "Deep Learning for Text Classification",
+      "venue": "International Conference on Artificial Intelligence",
+      "date": "2020"
+    }
+  ],
+  "additional_sections": {
+    "awards_honors": [
+      "AI Innovator of the Year Award (2022)"
+    ],
+    "volunteer_work": [
+      "AI mentor at local high school"
+    ],
+    "professional_affiliations": [
+      "Member of IEEE Computer Society"
+    ],
+    "languages_spoken": [
+      "English",
+      "Spanish"
+    ]
+  },
+  "references": "Available upon request"
+}

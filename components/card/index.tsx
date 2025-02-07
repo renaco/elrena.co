@@ -5,9 +5,10 @@ const Card = () => {
   return (
     <CardStyle>
       <h1>Hello!</h1>
-      My name is <strong>Renán</strong>
-      <h3>I&apos;m work as aFrontend React Developer</h3>
-      <p>Page under construction...</p>
+      <h2>My name is <strong>Renán</strong></h2>
+      <h3>I&apos;m work as a Frontend React Developer</h3>
+      <p>Thanks for visit my personal site</p>
+      <i></i>
     </CardStyle>
   );
 };

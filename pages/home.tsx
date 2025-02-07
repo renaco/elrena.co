@@ -7,9 +7,10 @@ import { Divider } from "../components/divider";
 const VideoContent = styled.div`
   width: 100%;
   height: 100%;
+  position: relative;
   iframe {
     /* TODO: Need a invisible border */
-    border: solid 1px;
+    /* border: solid 1px; */
     width: 100%;
     height: calc((100vw * 9) / 16);
   }
